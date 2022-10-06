@@ -1,4 +1,5 @@
 import CampoTexto from '../CampoTexto'
+import Dropdown from '../Dropdown'
 import './Formulario.css'
 
 const Formulario = () => {
@@ -9,7 +10,7 @@ const Formulario = () => {
                 <CampoTexto label="Nome" placeholder="Digite seu nome" />
                 <CampoTexto label="Cargo" placeholder="Digite seu cargo" />
                 <CampoTexto label="Imagem" placeholder="Informe o endereço da imagem" />
-                <CampoTexto label="Time" />
+                <Dropdown label="Time" placeholder="Escolha seu time" />
             </form>
         </section>
     )
